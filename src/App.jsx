@@ -21,7 +21,7 @@ function App() {
           <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
           <p>วันเกิด: {moment("2002/07/25").format("D MMM YYYY")}</p>
           <p style={{ display: hide ? 'none': 'block'}} >
-            Tel : +66877543002
+            Tel : +668090009
           </p>
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show': 'Hide'}
